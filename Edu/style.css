@@ -1,0 +1,236 @@
+
+
+/*gradient:linear-gradient(90deg,#f1c40f,#f39c12);
+*/
+
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column ;
+    background-image: url('https://img.freepik.com/free-photo/international-day-literacy-concept-with-learning-tools_1150-24438.jpg?w=2000') ;
+  
+}
+
+section{
+    min-height: 100vh;
+    padding: 1 rem 7%;
+    padding-top: 6 rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    text-align:center;
+}
+
+.home h1{
+    font-size: 6rem;
+    color: #666;
+}
+.home p{
+    font-size: 1.9rem;
+    color: #999;
+    padding:  1rem 0;
+    width: 70 rem;
+    
+}
+
+.butn{
+padding: 7rem 3 rem;
+font-size: 2rem;
+color: #fff;
+background-color:orange;
+border-radius:5rem;
+margin-top: 1rem;
+cursor: pointer;
+box-shadow:0  0.1rem 0.3 rem rgb(0, 0,0,0.3);
+position: relative;
+overflow: hidden;
+z-index: 0;
+height: 50px;
+
+}
+
+.butn-hover::before{
+
+    transition: 0.3 rem linear;
+    left: 120%;
+}
+
+
+
+
+
+/*About */
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.about .image{
+    flex:1 1 40 rem;
+}
+.about .image img{
+    height: 65vh;
+    width: 100%;
+}
+
+.about .content{
+    flex: 1 1 40rem;
+}
+
+.about .content h3
+{
+  font-size: 3.5rem;
+  color:#666;
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color:#666;
+    padding: 1 rem 0;
+}
+
+
+/*contact us*/
+
+.contact{
+    background-color: #111;
+
+}
+.contact .heading{
+color: #fff;
+}
+
+.contact .row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row form{
+    flex:0.1 0.1 50rem;
+    background:#222;
+    padding:2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+
+
+}
+
+.contact .row form .box{
+    height: 5rem;
+    width: 49%;
+    border: 0.1 rem solid #eee;
+    padding: 0.1rem;
+    margin: 1rem 0;
+    font-size: 1.7 rem;
+    color: #fff;
+    background:none;
+    text-transform: none;
+    
+}
+
+
+.contact .row form .box::placeholder{
+    text-transform:none;
+}
+.contact .row image
+{
+    display: none;
+}
+
+
+
+
+
+.footer{
+    background:white;
+    margin-top: 30px;
+
+}
+
+.footer .box-container{
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.footer .box-container .box{
+  margin:1.5rem;
+  text-align:center;
+  flex:1 1 25 rem;   
+}
+
+
+.footer .box-container .box h3{
+
+    font-size:2.5rem;
+    color:#fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box p{
+    font-size: 1.7rem;
+    color: #eee;
+    padding: 0.7rem 0;
+}
+
+
+.footer .box-container .box a{
+   font-size: 1.8rem;
+   display: block;
+   padding:0.5rem 0;
+   color:#fff;
+
+
+}
+
+.footer .box-container .box a:hover{
+    padding: 2rem 1rem;
+    font-size: 2rem;
+    color: #fff;
+    background:#111;
+    text-align: center;
+    font-weight: none;
+}
+
+.footer .cresit a{
+    color: #f39c12;
+}
+
+
+
+
+/*Teacher*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
